@@ -8,14 +8,7 @@
 - Clone the repo:
 `git clone [REPO_URL] [DIRECTORY_NAME]`
 
-- Create `.env` file from the example file:
-`php -r "file_exists('.env') || copy('.env.example', '.env');"`
-
-- Setup .env variables
-
 - Install the dependencies: `composer install`
-
-- Generate Key: `php artisan key:generate`
 
 - Check Code: `app/Http/Controllers/TestController.php`
 
